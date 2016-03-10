@@ -1,0 +1,17 @@
+# this presents the stimulus sent to it from the scenario file
+trial {
+	trial_duration = $SOA;
+
+	sound $the_sound;
+	time = 0;
+	duration = 54;
+	code = $the_code; # stimulus name; sent from scenario file    
+	port_code = $trigger_value; #trigger value; sent from scenario file      
+	response_active = $foo;
+	
+	# the following is to send another trigger during the presentation
+	# (i.e. if you need to code for more than 15 conditions)
+	##nothing {};
+	##time = 500; # sends code 500ms into picture presentation
+	##port_code = $gender; # trigger value; sent from scenario file
+};                                                                                                                 
