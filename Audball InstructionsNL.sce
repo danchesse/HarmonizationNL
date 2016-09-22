@@ -30,13 +30,13 @@ sound {
 wavefile { filename = "1000.wav"; } onekHz;
 sound {
     wavefile onekHz;
-    attenuation = 0.42;
+    attenuation = 0.2;
 } target;
 
 wavefile { filename = "500.wav"; } stan;
 sound {
     wavefile stan;
-    attenuation = 0.42;
+    attenuation = 0.2;
 } standard;
 
 wavefile { filename = "AODinstruct2NL.wav"; } adi2;
